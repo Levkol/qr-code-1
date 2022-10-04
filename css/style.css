@@ -1,0 +1,68 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Desktop */
+@media (701px<=width <=1700px) {
+  .main-container {
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 550px;
+    margin: 30px auto;
+    border-radius: 15px;
+  }
+
+  .image-container {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+  }
+
+  .main-image {
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+
+  .info-container {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    margin-top: 370px;
+    padding: 0 20px 0 20px;
+  }
+
+  .description {
+    padding: 15px 40px 40px 40px;
+    font-size: 0.9375em;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
